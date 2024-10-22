@@ -26,11 +26,11 @@ The project consists of two key components:
 
 ## Project Structure
 ```
-├── data/                   # Training data (images and telemetry logs)
+├── data                   # Training data (images and telemetry logs)
 ├── notebooks/              # Jupyter Notebooks for data processing and model training
 │   └── SelfDrivingCar.ipynb
-├── model/                  # Pre-trained model
-│   └── model.h5
+├── model.h5                # Pre-trained model
+│── issues and resources.txt # other libraries 
 ├── drive.py                # Main script for real-time car control
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
@@ -62,7 +62,7 @@ pip install -r requirements.txt
    
 2. **Train the Model:**
    - Follow the steps to build and train a convolutional neural network.
-   - Save the trained model as `model.h5` in the `model/` directory.
+   - Save the trained model as `model.h5`.
    
 3. **Data Preprocessing:**
    - **Image Cropping and Resizing:** Remove irrelevant parts of images (e.g., sky and car hood) and resize them.
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 ### 2. Running the Real-Time Simulation (Python Script)
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/self-driving-car-sim.git
+   git clone https://github.com/Hussainaakash11/SelfDrivingCar/
    cd self-driving-car-sim
    ```
 
@@ -128,7 +128,7 @@ Steering Angle: -0.045, Throttle: 0.78, Speed: 8.5
 
 3. **Performance Issues:**
    - Try optimizing the neural network architecture in the Jupyter Notebook.
-   - Use a higher quality dataset for better model performance.
+   - Use a higher-quality dataset for better model performance.
 
 ## To-Do List / Future Enhancements
 - Improve the data preprocessing pipeline to handle more diverse lighting conditions.
